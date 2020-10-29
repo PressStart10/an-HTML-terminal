@@ -9,8 +9,7 @@
   <body>
   <p id="cmd"></p>
     <span>system></span>
-    <input type="text" id="rf" value="line input..."/>
-    <button onclick="l(#rf.value)">Enter</button>
+    <input type="text" id="rf" onchange="l(this.value)" value="line input..."/>
     </body>
   <style media="screen">
   @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
