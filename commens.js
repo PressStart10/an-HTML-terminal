@@ -4,4 +4,5 @@ function l(li){
     ajax += in
     $("#cmd").html(ajax+"<br>");
   }
+  $("#rf").value("line input..")
 }
