@@ -1,6 +1,6 @@
 var ajax = ""
 function l(li){
-  function log(in){
+  function log(log){
     ajax += in
     $("#cmd").html(ajax+"<br>");
     consle log("ajax")
