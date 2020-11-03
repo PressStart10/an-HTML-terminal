@@ -5,5 +5,5 @@ function l(li){
     $("#cmd").html(ajax+"<br>");
     consle.log("ajax")
   }
-  $("#rf").value("line input..")
+  $("#rf").setvalue("line input..")
 }
