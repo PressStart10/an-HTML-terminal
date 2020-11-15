@@ -1,9 +1,13 @@
 var ajax = ""
 function l(li){
-  function say(s){
-    alert(s)
-  }
-  function log(log){
-    $("#cmd").html(log)
+	var s;
+	var lo;
+  switch(li){
+     case"say "+s:
+				alert(s)
+		break;
+		case "log "+lo:
+			$("#cmd").html(lo)
+		break;
   }
 }
